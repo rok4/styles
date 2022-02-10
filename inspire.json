@@ -1,0 +1,14 @@
+{
+	"identifier": "inspire",
+    "title": "Style INSPIRE",
+	"abstract": "Style par défault INSPIRE",
+	"keywords": ["Défaut", "INSPIRE"],
+    "legend": {
+        "format": "image/png",
+        "url": "http://ign.fr/inspire",
+        "height": 100,
+        "width": 100,
+        "min_scale_denominator": 0,
+        "max_scale_denominator": 30
+    }
+}

@@ -1,0 +1,135 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "ROK4 Style",
+    "type": "object",
+    "properties": {
+        "identifier": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "abstract": {
+            "type": "string"
+        },
+        "keywords": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "legend": {
+            "type": "object",
+            "properties": {
+                "format": {
+                    "type": "string"
+                },
+                "url": {
+                    "type": "string"
+                },
+                "height": {
+                    "type": "integer"
+                },
+                "width": {
+                    "type": "integer"
+                },
+                "min_scale_denominator": {
+                    "type": "integer"
+                },
+                "max_scale_denominator": {
+                    "type": "integer"
+                }
+            }
+        },
+        "exposition": {
+            "type": "object",
+            "properties": {
+                "algo": {
+                    "type": "string",
+                    "enum": ["H"]
+                },
+                "min_slope": {
+                    "type": "integer"
+                }
+            }
+        },
+        "estompage": {
+            "type": "object",
+            "properties": {
+                "interpolation": {
+                    "type": "string"
+                },
+                "zenith": {
+                    "type": "number"
+                },
+                "azimuth": {
+                    "type": "number"
+                },
+                "z_factor": {
+                    "type": "number"
+                }
+            }
+        },
+        "pente": {
+            "type": "object",
+            "properties": {
+                "algo": {
+                    "type": "string",
+                    "enum": ["H"]
+                },
+                "unit": {
+                    "type": "string"
+                },
+                "interpolation": {
+                    "type": "string"
+                },
+                "image_nodata": {
+                    "type": "number"
+                },
+                "slope_nodata": {
+                    "type": "number"
+                },
+                "slope_max": {
+                    "type": "number"
+                }
+            }
+        },
+        "palette": {
+            "type": "object",
+            "properties": {
+                "rgb_continuous": {
+                    "type": "boolean"
+                },
+                "alpha_continuous": {
+                    "type": "boolean"
+                },
+                "max_value": {
+                    "type": "number"
+                },
+                "colours": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "properties": {
+                            "value": {
+                                "type": "number"
+                            },
+                            "red": {
+                                "type": "integer"
+                            },
+                            "green": {
+                                "type": "integer"
+                            },
+                            "blue": {
+                                "type": "integer"
+                            },
+                            "alpha": {
+                                "type": "integer"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

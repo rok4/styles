@@ -1,0 +1,14 @@
+{
+	"identifier": "normal",
+    "title": "Données Brutes",
+	"abstract": "Données brutes sans changement de palette",
+	"keywords": ["Défaut"],
+    "legend": {
+        "format": "image/png",
+        "url": "http://ign.fr",
+        "height": 100,
+        "width": 100,
+        "min_scale_denominator": 0,
+        "max_scale_denominator": 30
+    }
+}

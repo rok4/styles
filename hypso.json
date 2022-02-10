@@ -1,0 +1,36 @@
+{
+	"identifier": "hypso",
+    "title": "Teinte Hypsométrique",
+	"abstract": "Teinte Hypsométrique",
+	"keywords": ["MNT"],
+    "legend": {
+        "format": "image/png",
+        "url": "http://ign.fr",
+        "height": 100,
+        "width": 100,
+        "min_scale_denominator": 0,
+        "max_scale_denominator": 30
+    },
+    "palette": {
+        "max_value": 3.40282e+38,
+        "rgb_continuous": true,
+        "alpha_continuous": true,
+        "colours": [
+            { "value": -99999, "red": 255, "green": 255, "blue": 255, "alpha": 0 },
+            { "value": -99998.1, "red": 255, "green": 255, "blue": 255, "alpha": 0 },
+            { "value": -99998.0, "red": 255, "green": 0, "blue": 255, "alpha": 255 },
+            { "value": -501, "red": 255, "green": 0, "blue": 255, "alpha": 255 },
+            { "value": -500, "red": 1, "green": 29, "blue": 148, "alpha": 255 },
+            { "value": -15, "red": 19, "green": 42, "blue": 255, "alpha": 255 },
+            { "value": 0, "red": 67, "green": 105, "blue": 227, "alpha": 255 },
+            { "value": 0.01, "red": 57, "green": 151, "blue": 105, "alpha": 255 },
+            { "value": 300, "red": 230, "green": 230, "blue": 128, "alpha": 255 },
+            { "value": 600, "red": 220, "green": 179, "blue": 99, "alpha": 255 },
+            { "value": 2000, "red": 162, "green": 100, "blue": 51, "alpha": 255 },
+            { "value": 2500, "red": 122, "green": 81, "blue": 40, "alpha": 255 },
+            { "value": 3000, "red": 255, "green": 255, "blue": 255, "alpha": 255 },
+            { "value": 9000, "red": 255, "green": 255, "blue": 255, "alpha": 255 },
+            { "value": 9001, "red": 255, "green": 255, "blue": 255, "alpha": 255 }
+        ]
+    }
+}

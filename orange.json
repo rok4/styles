@@ -1,0 +1,24 @@
+{
+	"identifier": "orange",
+    "title": "Palette orange - transparent",
+	"abstract": "Orange sur fond transparent",
+	"keywords": ["orange", "transparent"],
+    "legend": {
+        "format": "image/png",
+        "url": "http://ign.fr",
+        "height": 100,
+        "width": 100,
+        "min_scale_denominator": 0,
+        "max_scale_denominator": 999999
+    },
+    "palette": {
+        "max_value": 255,
+        "rgb_continuous": true,
+        "alpha_continuous": true,
+        "colours": [
+            { "value": 0, "red": 255, "green": 132, "blue": 0, "alpha": 255 },
+            { "value": 200, "red": 255, "green": 132, "blue": 0, "alpha": 55 },
+            { "value": 255, "red": 255, "green": 255, "blue": 255, "alpha": 0 }
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+	"identifier": "epandage",
+    "title": "Pente par paliers standards pour epandage",
+	"abstract": "Pente calculee avec la methode de Horn mais affichee par parlier standard de 0 a 20 pourcent",
+	"keywords": ["MNT"],
+    "legend": {
+        "format": "image/png",
+        "url": "http://ign.fr",
+        "height": 100,
+        "width": 100,
+        "min_scale_denominator": 0,
+        "max_scale_denominator": 30
+    },
+    "pente": {
+        "algo": "H",
+        "unit": "degree",
+        "interpolation": "linear",
+        "image_nodata": -99999,
+        "slope_nodata": 255,
+        "slope_max": 254
+    },
+    "palette": {
+        "max_value": 255,
+        "rgb_continuous": true,
+        "alpha_continuous": true,
+        "colours": [
+            { "value": 0, "red": 255, "green": 255, "blue": 255, "alpha": 0 },
+            { "value": 6, "red": 255, "green": 255, "blue": 255, "alpha": 0 },
+            { "value": 7, "red": 9, "green": 80, "blue": 193, "alpha": 255 },
+            { "value": 9, "red": 9, "green": 80, "blue": 193, "alpha": 255 },
+            { "value": 10, "red": 51, "green": 7, "blue": 196, "alpha": 255 },
+            { "value": 14, "red": 51, "green": 7, "blue": 196, "alpha": 255 },
+            { "value": 15, "red": 201, "green": 84, "blue": 12, "alpha": 255 },
+            { "value": 19, "red": 201, "green": 84, "blue": 12, "alpha": 255 },
+            { "value": 20, "red": 216, "green": 2, "blue": 5, "alpha": 255 },
+            { "value": 254, "red": 216, "green": 2, "blue": 5, "alpha": 255 },
+            { "value": 255, "red": 170, "green": 165, "blue": 165, "alpha": 255 }
+        ]
+    }
+}
