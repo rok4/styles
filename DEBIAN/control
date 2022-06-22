@@ -1,5 +1,0 @@
-Package: rok4-styles
-Architecture: all
-Maintainer: Géoportail<tout_rdev@ign.fr>
-Homepage: https://github.com/rok4/styles
-Description: Styles are used to process or broadcast geographical raster data
