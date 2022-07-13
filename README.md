@@ -7,7 +7,7 @@ Ces styles sont utilisés dans le projet ROK4 au niveau de la génération des p
 Télécharger le paquet [sur GitHub](https://github.com/rok4/styles/releases/).
 
 ```
-apt install ./rok4-styles_4.0_all.deb
+apt install ./rok4-styles-4.0-linux-all.deb
 ```
 
 Les fichiers seront installés dans le dossier `/etc/rok4/styles`.
