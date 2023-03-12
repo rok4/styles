@@ -13,8 +13,8 @@ jobs:
 
       - name: Organize files
         run: |
-          mkdir -p build/etc/rok4/styles
-          cp *.json build/etc/rok4/styles/
+          mkdir -p build/usr/share/rok4/styles
+          cp *.json build/usr/share/rok4/styles/
 
       - name: Build debian package
         id: build_debian
@@ -25,7 +25,7 @@ jobs:
           maintainer: Géoportail<tout_rdev@ign.fr>
           version: ${{ github.ref_name }}
           arch: 'all'
-          desc: 'Tile Matrix Sets define grids to process then broadcast geographical data as tile'
+          desc: 'Styles are used by processing tools and server to transform raster data'
 
       - name: Create Release
         id: create_release

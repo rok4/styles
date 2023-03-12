@@ -2,15 +2,13 @@
 
 ## Summary
 
-Le projet ROK4 a été totalement refondu, dans son organisation et sa mise à disposition. Les composants sont désormais disponibles dans des releases sur GitHub au format debian.
-
-Cette release contient les styles, utilisés par les outils de génération (styles "complexes", quand le valeur finale d'un pixel dépend des valeurs initiales du voisinage, comme le calcul de pente ou d'ombrage) et le serveur de diffusion (styles "simple", quand la valeur finale d'un pixel de dépend que de sa valeur initiale, comme l'application d'une palette).
+Nouvel emplacement des styles lors de leur installation via le paquet debian
 
 ## Changelog
 
 ### [Changed]
 
-* Tous les styles ont été mis au format JSON, dont les spécifications sont décrites sous forme de [schéma JSON](style.schema.json) dans le projet.
+* Les styles installés via le paquet debian vont dans le dossier `/usr/share/rok4/styles`
 
 <!-- 
 ### [Added]
