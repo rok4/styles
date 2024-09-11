@@ -1,0 +1,22 @@
+{
+	"identifier": "pente",
+    "title": "Pente",
+	"abstract": "Pente calculee avec la methode de Horn",
+	"keywords": ["MNT"],
+    "legend": {
+        "format": "image/png",
+        "url": "http://ign.fr",
+        "height": 100,
+        "width": 100,
+        "min_scale_denominator": 0,
+        "max_scale_denominator": 30
+    },
+    "pente": {
+        "algo": "H",
+        "unit": "degree",
+        "interpolation": "linear",
+        "image_nodata": -99999,
+        "slope_nodata": 91,
+        "slope_max": 90
+    }
+}

@@ -1,7 +1,7 @@
 {
-	"identifier": "inspire",
+	"identifier": "inspire_common:DEFAULT",
     "title": "Style INSPIRE",
-	"abstract": "Style par défault INSPIRE",
+	"abstract": "Style sans transformation INSPIRE",
 	"keywords": ["Défaut", "INSPIRE"],
     "legend": {
         "format": "image/png",
