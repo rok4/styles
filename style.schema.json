@@ -103,8 +103,8 @@
                 "alpha_continuous": {
                     "type": "boolean"
                 },
-                "max_value": {
-                    "type": "number"
+                "no_alpha": {
+                    "type": "boolean"
                 },
                 "colours": {
                     "type": "array",

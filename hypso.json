@@ -12,7 +12,7 @@
         "max_scale_denominator": 30
     },
     "palette": {
-        "max_value": 3.40282e+38,
+        "no_alpha": false,
         "rgb_continuous": true,
         "alpha_continuous": true,
         "colours": [
