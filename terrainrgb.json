@@ -14,7 +14,7 @@
         "max_scale_denominator": 30
     },
     "terrainrgb": {
-        "min_elevation": "-10000",
+        "min_elevation": -10000,
         "step": 0.1
     }
 }
