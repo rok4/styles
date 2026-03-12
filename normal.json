@@ -1,14 +1,14 @@
 {
 	"identifier": "normal",
-    "title": "Données Brutes",
-	"abstract": "Données brutes sans changement de palette",
+    "title": "Données brutes",
+	"abstract": "Données brutes, sans modification de canal",
 	"keywords": ["Défaut"],
     "legend": {
-        "format": "image/png",
-        "url": "http://ign.fr",
-        "height": 100,
-        "width": 100,
-        "min_scale_denominator": 0,
-        "max_scale_denominator": 30
+        "format": "image/jpeg",
+        "url": "https://data.geopf.fr/annexes/ressources/legendes/LEGEND.jpg",
+        "height": 69,
+        "width": 280,
+        "min_scale_denominator": 200,
+        "max_scale_denominator": 100000000
     }
 }
